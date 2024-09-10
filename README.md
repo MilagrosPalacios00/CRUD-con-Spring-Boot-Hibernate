@@ -12,17 +12,13 @@ Este proyecto es una aplicación web CRUD (Crear, Leer, Actualizar, Eliminar) de
  -HTML/CSS para la interfaz de usuario básica
  -Arquitectura del proyecto
  
-## El proyecto sigue el Patrón de Arquitectura en Capas (Layered Architecture Pattern), con las siguientes capas:
+## El proyecto sigue el Patrón de Arquitectura en Capas:
 
-### Model: 
-Define las entidades del sistema, que representan las tablas de la base de datos.
-### Repository:
-Se encarga de la comunicación directa con la base de datos utilizando Hibernate y JPA.
-### Service: 
-Contiene la lógica de negocio de la aplicación, interactuando con las capas de Repository y Controller.
-### Controller: 
-Gestiona las solicitudes HTTP y devuelve las respuestas adecuadas. Aquí se encuentran los endpoints que permiten interactuar con la aplicación.
-### Características
+-Model:Define las entidades del sistema, que representan las tablas de la base de datos.
+-Repository : Se encarga de la comunicación directa con la base de datos utilizando Hibernate y JPA.
+-Service : Contiene la lógica de negocio de la aplicación, interactuando con las capas de Repository y Controller.
+-Controller:Gestiona las solicitudes HTTP y devuelve las respuestas adecuadas. Aquí se encuentran los endpoints que permiten interactuar con la aplicación.
+
 
 ## Implementación de operaciones CRUD:
   -Crear: Añadir nuevos registros a la base de datos.
